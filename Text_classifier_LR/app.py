@@ -2,7 +2,7 @@ import streamlit as st
 import joblib
 
 
-model=joblib.load('news-classification-model.pkl')
+model=joblib.load('Text_classifier_LR/news-classification-model.pkl')
 
 news_labels={0:"Technical",1:"Business",2:'Sports',3:'Entertainment','4':'Politics'}
 
